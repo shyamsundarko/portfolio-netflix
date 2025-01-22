@@ -1,8 +1,14 @@
+'use client';
+
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <div>
-      
-    </div>
-  );
+  const router = useRouter();
+  
+  useEffect(() => {
+    router.push('/select-profile');
+  }, []);
+
+  return null; // or a loading spinner if you want
 }
