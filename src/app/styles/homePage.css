@@ -64,6 +64,6 @@
     transform: scaleY(0.97);
 }
 
-.frontendContainer{
+.frontendContainer, .fullStackContainer{
     padding-bottom: 20vmin;
 }
