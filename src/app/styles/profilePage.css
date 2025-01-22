@@ -1,0 +1,54 @@
+.profileSelectionPage{
+    padding: 10vmin;
+    min-height: 100vh;
+    background-color: #151515;
+}
+.groupedTitle{
+    text-align: center;
+    padding: 5vmin 0 10vmin 0;
+}
+.profilePageTitle, .profilePageSubTitle{
+    font-size: 5vmin;
+    font-weight: 500;
+    color: #fff;
+    transform: scaleY(0.97);
+    letter-spacing: -0.5px;
+}
+.profilePageSubTitle{
+    color: #959595;
+    font-size: 3.5vmin;
+}
+.profilesContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.profileContainer{
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   gap: 2vmin;
+   text-align: center;
+   
+}
+.profileImgContainer{
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    position: relative;
+    background-color: #282828;
+    padding: 1vmin;
+    border-radius: 10px;
+    
+}
+
+.profileImgContainer img{
+    object-fit: contain;
+}
+.imageDesc{
+    font-size: 3.5vmin;
+    color: #8f8f8f;
+}

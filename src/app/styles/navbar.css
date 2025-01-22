@@ -1,0 +1,36 @@
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vmin 6vmin;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2vmin;
+}
+li{
+    text-decoration: none;
+}
+.profileIconContainer{
+    aspect-ratio: 1/1;
+    width: 8vw;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.profileIconContainer img{
+    object-fit: contain; 
+}
+.navLink{
+    font-size: 3vmin;
+    text-decoration: none;
+    color: #969696;
+    transform: scaleY(0.97);
+
+}
+.logo{
+    font-size: 8vmin;
+    font-weight: 600;
+    color: #E04949;
+}

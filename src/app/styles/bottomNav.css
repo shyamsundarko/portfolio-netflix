@@ -1,0 +1,29 @@
+
+.bottomNavContainer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(26, 26, 26);
+    height: 15vmin;
+    z-index: 100;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vmin;
+    height: 100%;
+    padding: 0 8vmin;
+}
+.bottomNavIcon{
+    aspect-ratio: 1/1;
+    width: 8vmin;
+    height: 8vmin;
+    position: relative;
+    
+}
+.profile{
+    border-radius: 2px;
+    overflow: hidden;
+}

@@ -1,0 +1,67 @@
+.educationPage{
+    min-height: 100vh;
+    background-color: #151515;
+}
+.educationContainer{
+    padding: 10vmin 8vmin;
+}
+.masthead{
+    font-size: 7vmin;
+    font-weight: 600;
+    color: #E4E4E4;
+    letter-spacing: -0.5px;
+    margin-bottom: 10vmin;
+    transform: scaleY(0.97);
+}
+
+.status{
+    font-size: 3vmin;
+    font-weight: 500;
+    width: max-content;
+    padding: 1vmin 2vmin;
+    border-radius: 6px;
+    margin-bottom: 2vmin;
+    color: #333;
+    transform: scaleY(0.97);
+}
+.completed{
+    background-color: #9aff9f;
+}
+.inprogress{
+    background-color: #fbc099;
+}
+.ntuContainer, .neuContainer{
+    margin: 15vmin 0;
+}
+
+.brief, .secText{
+    color: #A29E9E;
+    font-weight: 200;
+    letter-spacing: 0.7px;
+    font-size: 4.5vmin;
+    margin-bottom: 4vmin;
+    transform: scaleY(0.97);
+}
+.degree{
+    color: #A29E9E;
+    font-size: 3.5vmin;
+    text-align: center;
+    margin-bottom: 8vmin;
+    transform: scaleY(0.97);
+}
+.uniImgContainer{
+    background-color: white;
+    position: relative;
+    height: 40vmin;
+    border-radius: 10px;
+    margin-bottom: 2vmin;
+    overflow: hidden;
+}
+
+.secTitle{
+    font-size: 4.5vmin;
+    font-weight: 600;
+    color: #E4E4E4;
+    margin-bottom: 2vmin;
+    transform: scaleY(0.97);
+}

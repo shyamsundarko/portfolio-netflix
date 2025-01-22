@@ -1,0 +1,76 @@
+.frontendPage, .fullStackPage, .uiuxPage{
+    min-height: 100vh;
+    background-color: #151515;
+}
+.frontendContainer, .fullStackContainer, .uiuxContainer{
+    padding: 4vmin 7vmin;
+}
+.pictureContainer{
+    aspect-ratio: 1/1.15;
+    overflow: hidden;
+    position: relative;
+    border-radius: 17px;
+}
+.pictureContainer img{
+    object-fit: fill;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6vmin;
+    left: 6vmin;
+    
+}
+.name, .descriptorText{
+    color: #fff;
+    font-weight: 600;
+    font-size: 6.5vmin;
+    letter-spacing: -0.5px;
+    transform: scaleY(0.97);
+}
+.descriptorText{
+    font-weight: 400;
+    font-size: 4vmin;
+}
+.buttonsContainer{
+    position: absolute;
+    bottom: 4vmin;
+    right: 4vmin;
+    display: flex;
+    gap: 2vmin;
+}
+.resume, .linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+    padding: 1.5vmin 2vmin;
+    order: 1;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #ffffff;
+    transform: scaleY(0.97);
+}
+.resume{
+    order: 2;
+}
+.linkedin{
+    background-color: #9797977e;
+    
+}
+.btnIcon{
+    aspect-ratio: 1/1;
+    height: 4vmin;
+    overflow: hidden;
+    position: relative;
+}
+.btnText{
+    font-size: 3.2vmin;
+    color: #333;
+    transform: scaleY(0.97);
+}
+.linkedin .btnText{
+    color: #fff;
+}
