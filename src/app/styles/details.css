@@ -69,3 +69,33 @@
     margin-top: 10vmin;
     transform: scaleY(0.97);
 }
+
+@media screen and (min-width: 1024px){
+    .detailsContainer{
+        padding: 15vmin 0;
+    }
+    .mainImgContainer{
+        height: 70vmin;
+        margin: 0 25vmin;
+        border-radius: 15px;
+    }
+    .textContent{
+        padding: 10vmin 25vmin;
+    }
+    .title{
+        font-size: 4vmin;
+    }
+    .secondaryTitle{
+        font-size: 3.5vmin;
+    }
+    .desc, .secDesc{
+        font-size: 2.7vmin;
+    }
+    .visitBtn, .tryBtn{
+        font-size: 2.2vmin;
+        padding: 1.5vmin 3vmin;
+    }
+    .btnContainer{
+        padding-right: 25.5vmin;
+    }
+}

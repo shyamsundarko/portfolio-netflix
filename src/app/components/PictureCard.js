@@ -20,7 +20,7 @@ const PictureCard = ({role}) => {
           quality={75}
         />
         <div className="textContainer">
-          <div className="name">Hi, I'm Shyam</div>
+          <div className="nameCard">Hi, I'm Shyam</div>
           <div className="descriptorText">{role} Engineer based in Boston, MA</div>
         </div>
         <div className="buttonsContainer">

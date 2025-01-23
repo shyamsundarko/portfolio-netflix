@@ -69,3 +69,27 @@
     margin-bottom: 2vmin;
     transform: scaleY(0.97);
 }
+
+@media screen and (min-width: 1024px){
+    .experienceContainer{
+        padding: 25vmin 35vmin 15vmin 35vmin;
+    }
+    .masthead{
+        font-size: 6.5vmin;
+    }
+    .date{
+        font-size: 2vmin;
+    }
+    .brief{
+        font-size: 3vmin;
+    }
+    .imgSub{
+        font-size: 2vmin;
+    }
+    .secTitle{
+        font-size: 3.5vmin;
+    }
+    .secText{
+        font-size: 3vmin;
+    }
+}

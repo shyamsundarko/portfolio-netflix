@@ -65,6 +65,28 @@
     transform: scaleY(0.97);
 }
 
-.frontendContainer, .fullStackContainer{
-    padding-bottom: 30vmin;
+
+
+@media screen and (min-width: 1024px){
+    .flexed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .characteristic::before{
+        display: none;
+    } */
+    .characteristics{
+        display: none;
+    }
+    /* .characteristics{
+        display: flex;
+        flex-direction: column;
+    } */
+    .recommendedTitle{
+        font-size: 3vmin;
+    }
+    .recommendationTitle{
+        font-size: 2.5vmin;
+    }
 }

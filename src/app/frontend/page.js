@@ -37,15 +37,18 @@ const page = () => {
     <div className='frontendPage'>
       <Navbar  />
       <div className='frontendContainer'>
-        <div className='pictureContainer'>
-          <PictureCard role="Frontend" />
+        <div className="flexed">
+          <div className='pictureContainer'>
+            <PictureCard role="Frontend" />
+          </div>
+          <ul className='characteristics'>
+            <li className='characteristic'>resourceful</li>
+            <li className='characteristic'>hardworking</li>
+            <li className='characteristic'>team-player</li>
+            <li className='characteristic'>good communicator</li>
+          </ul>
         </div>
-        <ul className='characteristics'>
-          <li className='characteristic'>resourceful</li>
-          <li className='characteristic'>hardworking</li>
-          <li className='characteristic'>team-player</li>
-          <li className='characteristic'>good communicator</li>
-        </ul>
+        
 
         <div className="recommendedContainer">
           <div className="recommendedTitle">Recommended for you</div>

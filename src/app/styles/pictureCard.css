@@ -52,7 +52,7 @@
     z-index: 2;
 }
 
-.name, .descriptorText{
+.nameCard, .descriptorText{
     color: #fff;
     font-weight: 600;
     font-size: 6.5vmin;
@@ -106,5 +106,35 @@
 }
 
 
+@media screen and (min-width: 1024px){
 
+    .pictureContainer{
+        aspect-ratio: none;
+        margin: 0vmin auto 10vmin auto;
+        height: 60vmin;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nameCard, .descriptorText{
+        font-size: 3vmin;
+    }
+    .btnIcon{
+        height: 2vmin;
+    }
+    .btnText{
+        font-size: 1.8vmin;
+    }
+    .textContainer{
+        position: static;
+        padding: 4vmin;
+    }
+    .frontendContainer, .fullStackContainer, .uiuxContainer{
+        padding: 14vmin 15vmin;
+    }
+
+    
+    
+
+}
 

@@ -42,6 +42,9 @@ const Navbar = () => {
     <div className={`navbarContainer ${hasScrolled ? 'scrolled' : ''}`}>
       <Link href={`${basePath}`} className="logo">S</Link>
       <ul className="links">
+      <li>
+          <Link href={`${basePath}/about`} className="navLink about">About</Link>
+        </li>
         <li>
           <Link href={`${basePath}/education`} className="navLink">Education</Link>
         </li>
