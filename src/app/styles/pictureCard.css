@@ -116,8 +116,11 @@
         align-items: center;
 
     }
-    .nameCard, .descriptorText{
+    .nameCard{
         font-size: 3vmin;
+    }
+    .descriptorText{
+        font-size: 2vmin;
     }
     .btnIcon{
         height: 2vmin;
