@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div className='experienceContainer'>
         <div className="masthead">From internships to building my own startup, I&apos;m a curious engineer</div>
-
+        <hr className='divider' />
         <div className="workContainer">
             <div className="date present">Jan 2024 - Present</div>
             <div className="workImgContainer">

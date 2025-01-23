@@ -45,7 +45,9 @@ const DineDetails = ({path}) => {
                     
                     }
                     {path==="ui-ux" &&
-                    "This is what i did as a ui/ux engineer"
+                    <>
+                    Designed and implemented an intuitive menu interface with dynamic filtering and search functionality, improving order completion times and enhancing overall customer satisfaction. <br /> <br /> Created responsive, mobile-first layouts with consistent visual hierarchy and micro-interactions, incorporating user feedback through A/B testing to optimize the checkout flow and reduce cart abandonment rates.
+                    </>
                     }
                 </div>
 

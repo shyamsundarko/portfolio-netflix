@@ -10,8 +10,11 @@
     font-weight: 600;
     color: #E4E4E4;
     letter-spacing: -0.5px;
-    margin-bottom: 10vmin;
+    margin-bottom: 5vmin;
     transform: scaleY(0.97);
+}
+.divider{
+    border: solid 1px #323232;
 }
 
 .status{
@@ -25,13 +28,13 @@
     transform: scaleY(0.97);
 }
 .completed{
-    background-color: #9aff9f;
+    background-color: #B4FFBE;
 }
 .inprogress{
     background-color: #fbc099;
 }
 .ntuContainer, .neuContainer{
-    margin: 15vmin 0;
+    margin: 8vmin 0 20vmin 0;
 }
 
 .brief, .secText{
@@ -39,7 +42,7 @@
     font-weight: 200;
     letter-spacing: 0.7px;
     font-size: 4.5vmin;
-    margin-bottom: 4vmin;
+    margin-bottom: 6vmin;
     transform: scaleY(0.97);
 }
 .degree{

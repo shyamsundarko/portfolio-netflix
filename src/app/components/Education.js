@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div className='educationContainer'>
         <div className="masthead">I have been shaped by these remarkable institutions</div>
-
+        <hr className='divider' />
         <div className="ntuContainer">
             <div className="status completed">Completed</div>
             <div className="brief">I completed my undergraduate degree from a prestigious university in Singapore - World #15</div>

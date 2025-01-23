@@ -6,7 +6,7 @@
     padding: 4vmin 7vmin;
 }
 .pictureContainer{
-    aspect-ratio: 1/1.15;
+    aspect-ratio: 1/1.2;
     overflow: hidden;
     position: relative;
     border-radius: 17px;

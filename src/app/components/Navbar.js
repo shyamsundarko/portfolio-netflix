@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <div className='navbarContainer'>
-        <div className="logo">S</div>
+        <Link href={`${basePath}`} className="logo">S</Link>
         <ul className="links">
             <li>
                 <Link href={`${basePath}/education`} className="navLink">Education</Link>

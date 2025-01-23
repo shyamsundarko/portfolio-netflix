@@ -13,6 +13,9 @@
     margin-bottom: 10vmin;
     transform: scaleY(0.97);
 }
+.divider{
+    border: solid 1px #323232;
+}
 
 .date{
     font-size: 3vmin;
