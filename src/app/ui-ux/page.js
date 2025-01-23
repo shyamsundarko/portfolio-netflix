@@ -35,7 +35,7 @@ const page = () => {
        <Navbar  />
        <div className='fullStackContainer'>
         <div className='pictureContainer'>
-          <PictureCard role="Full-Stack" />
+          <PictureCard role="Ui/UX" />
         </div>
         <ul className='characteristics'>
           <li className='characteristic'>resourceful</li>
