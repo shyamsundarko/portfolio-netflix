@@ -123,7 +123,7 @@
         font-size: 2vmin;
     }
     .btnIcon{
-        height: 2vmin;
+        height: 2.5vmin;
     }
     .btnText{
         font-size: 1.8vmin;
@@ -134,6 +134,17 @@
     }
     .frontendContainer, .fullStackContainer, .uiuxContainer{
         padding: 14vmin 15vmin;
+    }
+    .buttonsContainer{
+        position: absolute;
+        bottom: 2vmin;
+        right: 2vmin;
+        display: flex;
+        gap: 1vmin;
+    }
+    .resume, .linkedin{
+        padding: 0.8vmin 1.2vmin;
+        gap: 1vmin;
     }
 
     
