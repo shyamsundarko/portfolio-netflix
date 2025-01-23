@@ -3,7 +3,7 @@
     background-color: #151515;
 }
 .detailsContainer{
-    padding-bottom: 20vmin;
+    padding: 20vmin 0;
 }
 .mainImgContainer,.secondaryImgContainer{
     height: 60vmin;
