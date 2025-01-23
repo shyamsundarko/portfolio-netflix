@@ -28,6 +28,7 @@
 .characteristic:first-child::before{
     content: none;
 }
+
 .recommendedTitle{
     font-size: 4vmin;
     color: #fff;

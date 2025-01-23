@@ -10,6 +10,16 @@ const Navbar = () => {
   const pathname = usePathname();
   const [imageSrc, setImageSrc] = useState('/images/frontend.png');
   const [basePath, setBasePath] = useState('');
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setHasScrolled(window.scrollY > 10);
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     const path = pathname.split('/')[1];
@@ -29,28 +39,27 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <div className='navbarContainer'>
-        <Link href={`${basePath}`} className="logo">S</Link>
-        <ul className="links">
-            <li>
-                <Link href={`${basePath}/education`} className="navLink">Education</Link>
-            </li>
-            <li>
-                <Link href={`${basePath}/experience`} className="navLink">Experience</Link>
-            </li>    
-        </ul>
-        <div className="profileIconContainer">
-          <Link href="/select-profile">
-            <Image
-              src={imageSrc}
-              alt="profile icon"
-              fill
-              priority={true}
-              quality={75}
-            />
-          </Link>
-          
-        </div>
+    <div className={`navbarContainer ${hasScrolled ? 'scrolled' : ''}`}>
+      <Link href={`${basePath}`} className="logo">S</Link>
+      <ul className="links">
+        <li>
+          <Link href={`${basePath}/education`} className="navLink">Education</Link>
+        </li>
+        <li>
+          <Link href={`${basePath}/experience`} className="navLink">Experience</Link>
+        </li>    
+      </ul>
+      <div className="profileIconContainer">
+        <Link href="/select-profile">
+          <Image
+            src={imageSrc}
+            alt="profile icon"
+            fill
+            priority={true}
+            quality={75}
+          />
+        </Link>
+      </div>
     </div>
   )
 }

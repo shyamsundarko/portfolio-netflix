@@ -1,9 +1,18 @@
-.navbarContainer{
+.navbarContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4vmin 6vmin;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.3s ease;
 }
+
+.navbarContainer.scrolled {
+    background-color: rgba(31, 31, 31, 0.953);
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -25,7 +34,7 @@ li{
 .navLink{
     font-size: 3vmin;
     text-decoration: none;
-    color: #969696;
+    color: rgb(216, 216, 216);
     transform: scaleY(0.97);
 
 }

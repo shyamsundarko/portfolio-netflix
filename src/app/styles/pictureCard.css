@@ -1,18 +1,44 @@
+
+
 .frontendPage, .fullStackPage, .uiuxPage{
     min-height: 100vh;
-    background-color: #151515;
+    background: linear-gradient(180deg,
+        #184584 0%,
+        #282b2f 50%,
+        #151515 100%
+    );
 }
 .frontendContainer, .fullStackContainer, .uiuxContainer{
-    padding: 4vmin 7vmin;
+    padding: 20vmin 7vmin;
+    background: linear-gradient(180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.9) 100%
+    );
 }
 .pictureContainer{
-    aspect-ratio: 1/1.2;
+    aspect-ratio: 1/1.25;
     overflow: hidden;
     position: relative;
-    border-radius: 17px;
+    border-radius: 15px;
+    border: solid 1px rgb(170, 170, 170);
+}
+
+.pictureContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.031) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+    z-index: 1;
 }
 .pictureContainer img{
     object-fit: fill;
+    z-index: 0;
 }
 .textContainer{
     display: flex;
@@ -22,6 +48,10 @@
     left: 6vmin;
     
 }
+.textContainer, .buttonsContainer {
+    z-index: 2;
+}
+
 .name, .descriptorText{
     color: #fff;
     font-weight: 600;
@@ -74,3 +104,7 @@
 .linkedin .btnText{
     color: #fff;
 }
+
+
+
+
