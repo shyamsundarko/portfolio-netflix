@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className='aboutPage'>
         <Navbar />
-        <div className="about">
+        <div className="aboutSection">
             <About />
         </div>
         <BottomNav />

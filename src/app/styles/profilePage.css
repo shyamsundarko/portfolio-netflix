@@ -52,3 +52,21 @@
     font-size: 3.5vmin;
     color: #8f8f8f;
 }
+
+@media screen and (min-width: 1024px){
+    .profileContainer{
+        width: 10%;
+    }
+    .imageDesc{
+        font-size: 2vmin;
+    }
+
+    .profilePageTitle{
+        letter-spacing: 0.5px;
+    }
+    .profilePageSubTitle{
+        font-size: 3vmin;
+        letter-spacing: 0.5px;
+    }
+
+}
