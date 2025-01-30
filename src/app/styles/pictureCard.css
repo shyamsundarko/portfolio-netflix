@@ -22,6 +22,7 @@
     position: relative;
     border-radius: 15px;
     border: solid 1px rgb(170, 170, 170);
+    animation: slideUp 0.5s ease-in-out forwards;
 }
 
 .pictureContainer::before {
@@ -104,6 +105,17 @@
 .linkedin .btnText{
     color: #fff;
 }
+
+@keyframes slideUp {
+    from {
+        transform: translateY(10%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
 
 
 @media screen and (min-width: 1024px){
