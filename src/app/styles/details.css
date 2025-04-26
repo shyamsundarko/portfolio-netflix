@@ -158,6 +158,9 @@ iframe {
     width: 100%;
     height: 60vmin;
 }
+i{
+    color: #569e88;
+}
 
 
 
@@ -203,5 +206,8 @@ iframe {
     }
     .evalContainer{
         height: 80vmin;
+    }
+    .persona{
+        font-size: 2.5vmin;
     }
 }

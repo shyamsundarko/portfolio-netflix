@@ -43,21 +43,21 @@ This app aims to address this by connecting victims with nearby trained voluntee
                 </div>
                 <div className='persona'>Medical Professional</div>
                 <ul className="user-interviews-list">
-                        <li>Key Quote: "Every second is of essence."</li>
+                        <li><i>Every second is of essence.</i></li>
                         <li>Primary Needs: Quick access to AED locations, verification systems</li>
                         <li>Key Concerns: App reliability causing delays during emergencies</li>
                 </ul>
                 
                 <div className='persona'>Active Outdoor Person</div>
                 <ul className="user-interviews-list">
-                        <li>Key Quote: "I would love something physical... maybe some buttons or motion action."</li>
+                        <li><i>I would love something physical... maybe some buttons or motion action.</i></li>
                         <li>Primary Needs: Physical interaction options, clear directional guidance</li>
                         <li>Key Concerns: Privacy regarding location tracking, navigation in unfamiliar areas</li>
                 </ul>
 
                 <div className='persona'>Parent</div>
                 <ul className="user-interviews-list">
-                        <li>Key Quote: "Staying calm was the biggest challenge."</li>
+                        <li><i>Staying calm was the biggest challenge.</i></li>
                         <li>Primary Needs: Quick access to guidance, visual instructions</li>
                         <li>Key Concerns: Emotional management during family emergencies</li>
                 </ul>
