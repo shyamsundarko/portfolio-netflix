@@ -31,7 +31,7 @@
 .textContent{
     padding: 10vmin;
 }
-.title, .secondaryTitle{
+.title, .secondaryTitle, .tertiaryTitle{
     font-size: 5vmin;
     color: #e4e4e4;
     font-weight: 600;
@@ -46,6 +46,7 @@
     transform: scaleY(0.97);
     font-weight: 200;
     letter-spacing: 0.5px;
+    line-height: 1.5;
 }
 
 .visitBtn, .tryBtn{
@@ -65,10 +66,99 @@
 }
 
 .secondaryTitle{
-    font-size: 4vmin;
+    font-size: 4.5vmin;
     margin-top: 10vmin;
     transform: scaleY(0.97);
 }
+.tertiaryTitle{
+    font-size: 3.9vmin;
+    transform: scaleY(0.97);
+}
+
+.user-interviews-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vmin;
+}
+
+.persona{
+    font-size: 3.5vmin;
+    color: #e4e4e4;
+    margin-bottom: 2vmin;
+    background-color: #145e48;
+    padding: 1vmin 2vmin;
+    width: max-content;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.user-interviews-list li{
+    font-size: 4.5vmin;
+    color: #a29e9e;
+    margin-bottom: -2vmin;
+    transform: scaleY(0.97);
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.user-needs{
+    display: flex;
+    gap: 1vmin;
+    flex-wrap: wrap;
+    margin-bottom: 4vmin;
+}
+.user-needs li{
+    font-size: 3.6vmin;
+    padding: 2vmin 2vmin;
+    border-radius: 10px;
+    text-align: left;
+    color: #e6e6e6;
+    width: max-content;
+    color: #1a7d5f;
+    background-color: #23232318;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+    border: solid 1px #1a7d5f;
+}
+
+
+.secTitle{
+    font-size: 2.4vmin;
+}
+
+.usabilityImgContainer, .evalContainer{
+    width: 100%;
+    height: 12.5vh;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 3vmin;
+}
+.evalContainer {
+    height: 80vmin;
+}
+.usabilityImgContainer img, .evalContainer img{
+    object-fit: fill;
+}
+
+.insights, .key-insights{
+    list-style: circle inside;
+    display: flex;
+    flex-direction: column;
+    font-size: 4.5vmin;
+    color: #a29e9e;
+    font-weight: 200;
+    transform: scaleY(0.97);
+    letter-spacing: 0.4px;
+}
+.key-insights {
+    margin-bottom: 5vmin;
+}
+iframe {
+    width: 100%;
+    height: 60vmin;
+}
+
+
 
 @media screen and (min-width: 1024px){
     .detailsContainer{
@@ -88,7 +178,7 @@
     .secondaryTitle{
         font-size: 3.5vmin;
     }
-    .desc, .secDesc{
+    .desc, .secDesc, .user-interviews-list li{
         font-size: 2.7vmin;
     }
     .visitBtn, .tryBtn{
@@ -97,5 +187,17 @@
     }
     .btnContainer{
         padding-right: 25.5vmin;
+    }
+    .tertiaryTitle{
+        font-size: 3vmin;
+    }
+    .insights, .key-insights {
+        font-size: 2.7vmin;
+    }
+    .user-needs li{
+        font-size: 2vmin;
+    }
+    .usabilityImgContainer, .evalContainer {
+        height: 30vmin;
     }
 }

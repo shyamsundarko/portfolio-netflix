@@ -24,6 +24,11 @@ const page = () => {
       id: 3,
       title: "Surgestrat",
       src: "/images/surgestrat.png"
+    },
+    {
+      id: 4,
+      title: "UX for healthcare",
+      src: "/images/emergency.png"
     }
   ];
   const handleRedirect =(id) => {

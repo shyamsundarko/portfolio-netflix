@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import DineDetails from '@/app/components/DineDetails';
 import IWillDetails from '@/app/components/IWillDetails';
 import SurgestratDetails from '@/app/components/SurgestratDetails';
+import HealthcareUXDetails from '@/app/components/HealthcareUXDetails';
 
 const page = ({params}) => {
     const pathname = usePathname();
@@ -30,6 +31,9 @@ const page = ({params}) => {
         id==3 && <SurgestratDetails path={basePath} />
       }
         
+      {
+        id==4 && <HealthcareUXDetails path={basePath} />
+      }
     </div>
   )
 }
